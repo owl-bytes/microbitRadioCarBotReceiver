@@ -13,4 +13,5 @@ def on_received_number(receivedNumber):
         kBit.run(KBitDir.TURN_LEFT, 20)
     if receivedNumber == 5:
         kBit.run(KBitDir.TURN_RIGHT, 20)
+        
 radio.on_received_number(on_received_number)
